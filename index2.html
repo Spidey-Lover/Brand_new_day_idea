@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Spider-Notes | My theory about Spider-Man: Brand New Day</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal fan site with my theory about Spider-Man: Brand New Day, timeline of rumors and confirmations, sources and notes.">
+  <meta property="og:title" content="Spider-Notes: Brand New Day Theory">
+  <meta property="og:description" content="My fan theory + confirmed facts, timeline, and notes.">
+  <meta property="og:type" content="website">
+  <style>
+    :root{
+      --bg:#0e0f12;--card:#151821;--text:#e7e9ee;--muted:#a7adba;--accent:#ff2d55;--accent-2:#6cf;--ring:0 0 0 2px rgba(255,45,85,.25);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial}
+    a{color:var(--accent-2);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{position:sticky;top:0;backdrop-filter:blur(10px);background:rgba(14,15,18,.6);border-bottom:1px solid #222;z-index:10}
+    .wrap{max-width:980px;margin:0 auto;padding:0 16px}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;gap:10px;align-items:center;font-weight:700;letter-spacing:.3px}
+    .brand .dot{width:10px;height:10px;border-radius:50%;background:var(--accent)}
+    .nav a.btn{padding:8px 12px;border:1px solid #333;border-radius:10px}
+    main{padding:28px 0 80px}
+    h1,h2{line-height:1.2;margin:0 0 14px}
+    h1{font-size: clamp(26px,3.2vw,36px)}
+    h2{font-size: clamp(20px,2.5vw,26px);margin-top:28px}
+    p{margin:0 0 12px}
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:22px;align-items:center;margin:20px 0 30px}
+    .hero .card{background:linear-gradient(180deg,#181b25,#12141b);border:1px solid #262a38;border-radius:16px;padding:18px;box-shadow:0 6px 40px rgba(0,0,0,.35)}
+    .badge{display:inline-block;font-size:12px;padding:4px 8px;border:1px solid #333;border-radius:999px;color:var(--muted)}
+    .grid{display:grid;gap:16px}
+    @media (min-width:780px){.grid{grid-template-columns:repeat(3,1fr)}}
+    .card{background:var(--card);border:1px solid #262a38;border-radius:16px;padding:16px}
+    .card h3{margin:4px 0 8px;font-size:18px}
+    .meta{color:var(--muted);font-size:13px}
+    .pill{display:inline-flex;gap:8px;align-items:center;border:1px solid #2b3040;padding:6px 10px;border-radius:999px}
+    .tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+    .muted{color:var(--muted)}
+    .kbd{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;background:#101318;border:1px solid #2b3040;border-radius:6px;padding:2px 6px}
+    .foot{margin-top:30px;font-size:13px;color:var(--muted)}
+    .flex{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:12px;border:1px solid #2b3040;background:#12141b;cursor:pointer}
+    .btn:hover{box-shadow:var(--ring)}
+    .sr-only{position:absolute;left:-9999px}
+    details{border:1px solid #2b3040;border-radius:12px;padding:12px;background:#11141a}
+    summary{cursor:pointer;font-weight:600}
+    .callout{border-left:3px solid var(--accent);padding:12px 12px 12px 16px;background:#12141b;border-radius:10px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand"><span class="dot" aria-hidden="true"></span> <span>Spider-Notes</span></div>
+      <nav class="flex">
+        <a class="btn" href="#theory">Theory</a>
+        <a class="btn" href="#timeline">Timeline</a>
+        <a class="btn" href="#sources">Sources</a>
+        <a class="btn" href="#notes">Notes</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <span class="badge">Fan project</span>
+        <h1>My theory about <span style="color:var(--accent)">Spider-Man: Brand New Day</span></h1>
+        <p class="muted">Here I collect confirmed facts, rumors, and my version of the plot: MJ, the symbiote, Ned, Tombstone — and how it might all come together into one story.</p>
+        <div class="flex" style="margin-top:10px">
+          <button class="btn" onclick="scrollToId('theory')">Read the theory</button>
+          <button class="btn" onclick="scrollToId('timeline')">See the timeline</button>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Summary of the theory</h3>
+        <ul style="margin:8px 0 0 18px">
+          <li>MJ lives a “new life,” not remembering Peter.</li>
+          <li>The leftover symbiote from NWH finds a new host (possibly MJ’s “new boyfriend”).</li>
+          <li>Tombstone is the main crime boss; Scorpion is his enforcer.</li>
+          <li>Ned shows magical potential or gets caught in a conflict.</li>
+          <li>Ending: MJ’s memory begins to return.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="theory">
+      <h2>Theory</h2>
+      <div class="callout">
+        <p><strong>TL;DR:</strong> The symbiote (the drop from NWH’s post-credit scene) connects the “street-level” story with Peter’s personal drama: MJ is dating someone new, the symbiote takes control → Peter must save her without revealing himself. Meanwhile, Tombstone and Scorpion build a criminal network.</p>
+      </div>
+
+      <h3 style="margin-top:16px">1) “A Brand New Day” for everyone</h3>
+      <p>Peter lives in the shadows (no one remembers him), MJ and Ned move on with their lives. Yet MJ feels strange déjà vu — subtle echoes of the past.</p>
+
+      <h3>2) The Symbiote as the trigger</h3>
+      <p>The drop of symbiote from the NWH ending finds a new host. Personal and dangerous collide head-on.</p>
+
+      <h3>3) “Street-level” New York</h3>
+      <p>Tombstone runs a growing crime network; Mac Gargan (Scorpion) serves as his muscle. Peter is on his own — no Stark tech, no magic, just responsibility and a sewing-machine Spider-Man suit.</p>
+
+      <h3>4) Climax and ending</h3>
+      <p>Peter saves MJ and chooses duty over desire. MJ starts to remember him — possibly through an emotional moment at the cemetery.</p>
+
+      <details style="margin-top:10px">
+        <summary>Strengths of this version</summary>
+        <ul style="margin:10px 0 0 18px">
+          <li>Balances personal drama with a grounded tone.</li>
+          <li>Uses the leftover symbiote — logical continuation of NWH.</li>
+          <li>Leaves room for Ned’s growth (magic/conflict).</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="timeline">
+      <h2>Timeline of facts and rumors</h2>
+      <div class="grid" style="margin-top:10px">
+        <article class="card">
+          <h3>Confirmed</h3>
+          <p class="meta">Roles and info from official sources / trusted outlets.</p>
+          <ul style="margin:8px 0 0 18px">
+            <li>Tom Holland — Peter Parker / Spider-Man.</li>
+            <li>Zendaya — MJ.</li>
+            <li>Jon Bernthal — Frank Castle / Punisher.</li>
+            <li>Michael Mando — Mac Gargan / Scorpion.</li>
+            <li>Marvin Jones III — Tombstone (reported by multiple outlets).</li>
+            <li>Filming locations include Glasgow and others.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Plausible rumors</h3>
+          <p class="meta">From insiders and sources with accurate track records.</p>
+          <ul style="margin:8px 0 0 18px">
+            <li>Sadie Sink — major role (possibly Gwen or another key character).</li>
+            <li>Ned’s role reduced but storyline continues.</li>
+            <li>MJ and Peter — emotional cemetery scene.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Caution (fan theories)</h3>
+          <p class="meta">Interesting logic but no confirmation.</p>
+          <ul style="margin:8px 0 0 18px">
+            <li>MJ’s “new boyfriend” becomes the symbiote host.</li>
+            <li>Ned becomes Strange’s apprentice or Hobgoblin.</li>
+            <li>Ending: MJ partially regains her memory.</li>
+          </ul>
+        </article>
+      </div>
+      <p class="foot">Legend: <span class="kbd">✅</span> confirmed, <span class="kbd">⚠️</span> plausible, <span class="kbd">💭</span> theory.</p>
+    </section>
+
+    <section id="sources">
+      <h2>Sources & links</h2>
+      <p class="muted">Add links to news or interviews here. Format: [date] — title — outlet.</p>
+      <ul id="src-list" style="margin-left:18px">
+        <li>Information collected from Discord servers, official teasers, and fan discussions.</li>
+      </ul>
+    </section>
+
+    <section id="notes">
+      <h2>Notes</h2>
+      <p>Since MJ will have a “new boyfriend,” he is most likely the symbiote’s new host (the Venom goo). MJ may remember Peter not because he tells her, but because her emotions resurface naturally.</p>
+      <div class="tags">
+        <span class="pill">#MJ</span>
+        <span class="pill">#Symbiote</span>
+        <span class="pill">#Tombstone</span>
+        <span class="pill">#Ned</span>
+      </div>
+      <div class="card" style="margin-top:12px">
+        <h3>Scene idea</h3>
+        <p><em>Cemetery. Snow. Peter at May’s grave. MJ stands at a distance. Their eyes meet — she feels déjà vu.</em></p>
+      </div>
+    </section>
+
+    <footer class="foot">
+      Made with love for Spidey · <span id="year"></span> · Fan project (unofficial)
+    </footer>
+  </main>
+
+  <script>
+    const yearEl=document.getElementById('year');
+    yearEl.textContent=new Date().getFullYear();
+    function scrollToId(id){document.getElementById(id).scrollIntoView({behavior:'smooth'})}
+  </script>
+</body>
+</html>
